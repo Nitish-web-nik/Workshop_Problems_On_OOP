@@ -1,6 +1,7 @@
 //Tree representation ALGORITHMS
 struct numeric_tree
 {
+
     int value_;
     struct numeric_tree *left_;
     struct numeric_tree *right_;
@@ -19,7 +20,7 @@ void print(numeric_tree *item)
         print(item->right_);
     }
 }
-//Finding Item
+//Finding Item in left and right subtree
 numeric_tree** find_(int v, numeric_tree**pp)
 {
     if((*pp)== nullptr)
