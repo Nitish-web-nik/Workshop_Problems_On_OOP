@@ -20,6 +20,7 @@ int main()
     u5.reset(u1.release());
     cout<<"after transferring of ownership u1 = "<<u1.get()<<" , u5 = "<<u5.get()<<endl;
     u1 = move(u5);//transferring ownership back to u1 from u5
+    cout<<"after second transfer u1 = "<<u1.get()<<", u5 = "<<u5.get()<<endl;
     unique_ptr<char[]> buf(new char[20]);
     strcpy(buf. get(), "nitish");
     cout<<"buf = " <<buf.get()<<endl;
@@ -33,8 +34,9 @@ Default Constructing noisy
 Default Constructing noisy
 Constructing noisy  arg: 1
 Default Constructing noisy
-before transferring of ownership u1 = 0x1714e0 , u5 = 0
-after transferring of ownership u1 = 0 , u5 = 0x1714e0
+before transferring of ownership u1 = 0xb614e0 , u5 = 0
+after transferring of ownership u1 = 0 , u5 = 0xb614e0
+after second transfer u1 = 0xb614e0, u5 = 0
 buf = nitish
 Destroying noisy
 Destroying noisy
@@ -44,4 +46,5 @@ Destroying noisy
 Destroying noisy
 Destroying noisy
 */
+
 /*Benefit of Using Smart pointer:- The smart pointers kept track of things and deleted the dynamic variables they owned automatically.*/
