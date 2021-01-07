@@ -44,3 +44,4 @@ Destroying noisy
 Destroying noisy
 Destroying noisy
 */
+/*Benefit of Using Smart pointer:- The smart pointers kept track of things and deleted the dynamic variables they owned automatically.*/
