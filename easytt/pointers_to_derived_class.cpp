@@ -58,3 +58,24 @@ int main()
    ((Derived*)bp)->disp();
     return 0;
 }
+/*Output:-
+bp points to Base Object
+
+This is a Base Class
+Value of B = 10
+bp is now pointing to derived object
+
+This is a Base Class
+Value of B = 20
+Derived type Pointer
+
+Derived Class
+Value of B = 20
+Value of D = 30
+
+Using (Derived*)bp
+
+Derived Class
+Value of B = 20
+Value of D = 40
+*/
