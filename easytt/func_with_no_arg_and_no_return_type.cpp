@@ -8,5 +8,5 @@ int main()
 }
 void disp(void)
 {
-    cout<<"This function is without return type and and arguments"<<endl;
+    cout<<"This function is without return type and no arguments"<<endl;
 }
