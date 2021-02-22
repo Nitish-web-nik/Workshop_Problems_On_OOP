@@ -37,6 +37,7 @@ public:
 int main()
 {
     /*
+    
     A *bp;
     B objb(100);
     C objc(200);
