@@ -1,5 +1,4 @@
-
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 char const* array[26]
