@@ -1,5 +1,7 @@
 /*Write a C++ program to print number in the following sequence by given input between
 1 to 10 (Entered by the user)
+
+
 */
 #include<iostream>
 using namespace std;
