@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 double cube(double);//function prototype/declaration
 int main()
