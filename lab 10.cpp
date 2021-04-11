@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -24,7 +24,7 @@ void student::getDetails(void){
 	total = marks1 + marks2 + marks3;
 }
 
-//member function definition, outside of the class
+//member function definition, outside of th loe class
 void student::putDetails(void){
 	cout << "Student details:\n";
 	cout << "Name:"<< name << ",Roll Number:" << rollNo << ",Total Marks:" << total;
