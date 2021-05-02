@@ -1,4 +1,5 @@
 #include<iostream>
+
 #define AGE_GROUPA 1
 #define AGE_GROUPB 2
 #define AGE_GROUPC 3
