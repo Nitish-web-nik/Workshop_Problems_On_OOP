@@ -4,6 +4,7 @@
 using namespace std;
 vector <int> myVector {1,2,3};
 
+
 //vector <int> myVector (3,1); will print 1 1 1
 
 void printVector()
