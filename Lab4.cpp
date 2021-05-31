@@ -1,4 +1,5 @@
 /**Write a C++ program to calculate area of rectangle using class and object.**/
+
 #include<iostream>
 using namespace std;
 class Rectangle
