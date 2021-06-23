@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 struct numeric_tree
 {
     int value_;
