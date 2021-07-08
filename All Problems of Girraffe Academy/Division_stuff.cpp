@@ -1,6 +1,5 @@
 #include<iostream>
-using namespace std;
-
+using namespace std;1
 int main()
 {
     cout<<10 / 3<<endl;//3
