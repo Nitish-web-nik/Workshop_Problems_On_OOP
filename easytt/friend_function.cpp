@@ -42,7 +42,8 @@ int main()
     a.putno();
     b.putno();
     add(a,b);
-
+    
+    
     return 0;
 }
 /*Output:-
