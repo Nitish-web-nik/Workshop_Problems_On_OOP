@@ -1,5 +1,6 @@
 /*The program in this exercise creates and destroys some class instances
 to illustrate the lifetime of global, function-local, and block-local variables*/
+
 #include<iostream>
 using namespace std;
 
