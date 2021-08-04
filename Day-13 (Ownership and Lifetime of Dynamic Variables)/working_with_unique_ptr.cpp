@@ -2,6 +2,7 @@
 #include<memory>//unique_ptr is defined in memory header file
 #include<cstring>
 using namespace std;
+
 struct noisy
 {
     noisy(){cout<<"Default Constructing noisy "<<endl;}
